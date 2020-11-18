@@ -1,0 +1,30 @@
+{
+    "name": "dogoda/sessions",
+    "type": "library",
+    "description": "A non-blocking session manager",
+    "keywords": ["session", "non-blocking"],
+    "homepage": "https://github.com/dogoda/sessions",
+    "authors": [{
+        "name": "Netesy Emmanuel",
+        "email": "netesy1@gmail.com",
+        "homepage": "https://github.com/netesy",
+        "role": "Developer"
+    }],
+    "require": {
+        "ext-session": "*",
+        "php": "^5.6|^7.2"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.3",
+        "mockery/mockery": "^1.0",
+        "duncan3dc/object-intruder": "^0.3.0",
+        "php-coveralls/php-coveralls": "^2.0",
+        "phpunit/phpunit": "^5.7.11"
+    },
+    "autoload": {
+        "psr-4": {"Dogoda\\Sessions\\": ""}
+    },
+    "autoload-dev": {
+        "psr-4": {"Dogoda\\SessionsTest\\": "tests/"}
+    }
+}
